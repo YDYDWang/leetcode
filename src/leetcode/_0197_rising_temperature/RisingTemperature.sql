@@ -1,0 +1,2 @@
+package leetcode._0197_rising_temperature;NER JOIN WEATHER Y ON Y.DATE = (T.DATE - INTERVAL 1 DAY)
+ WHERE T.TEMPERATURE > Y.TEMPERATURE;
